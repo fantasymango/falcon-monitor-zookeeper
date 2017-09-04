@@ -1,4 +1,5 @@
 # falcon-monitor-zookeeper
+## 使用shell脚本监控zookeeper
 使用zookeeper的状态查看命令获取zookeeper的status
 echo stat | nc 127.0.0.1 2181  查看zookeeper节点的信息
 echo ruok | nc 127.0.0.1 2181  测试是否启用了该server，若回复imok则表示已经启动
